@@ -30,7 +30,7 @@ class App extends Component {
           <button className="button">Submit</button>
         </form>
 
-        {this.props.data.isFetching ? <h3>Loading....</h3> : null}
+        {this.props.data.isFetching ? <h3 style={{textAlign: 'center'}}>Loading....</h3> : null}
 
         {this.props.data.isError ? (
           <h3 className="error">No Such User exists.</h3>

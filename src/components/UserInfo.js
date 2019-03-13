@@ -9,8 +9,7 @@ const UserInfo = props => (
     <div className="content">
       <h1>{props.user.name}</h1>
       <p>
-        <strong>Bio:</strong>
-        {props.user.bio}
+        <strong>Bio:</strong> {props.user.bio}
       </p>
       <p>
         <strong>Location:</strong> {props.user.location}
