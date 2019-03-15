@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import { connect } from "react-redux";
 import UserInfo from "../components/UserInfo";
-import { thunk_action_creator } from "../actions/fetchAction";
+import { thunk_action_creator } from "../redux/actions/fetchAction";
 class App extends Component {
   handleSubmit = e => {
     e.preventDefault();
